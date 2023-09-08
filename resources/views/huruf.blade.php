@@ -31,7 +31,7 @@
 </div>
 
 @else
-<div class="text-center position-absolute" style="top:50%;">
+<div class="text-center">
     <p class='fs-4 '>"Belum Tersedia [04]"</p>
 </div>
 
