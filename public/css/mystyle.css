@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/font/GothamBook.ttf'); 
+}
+
+a{
+    text-decoration: none;
+}
+
+.aktif {
+    background-color:aquamarine;
+}
+.card-overlays {
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 50;
+    width: 100%;
+    max-height: 47%;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+.overlays {
+    background-color:rgba(0, 0, 0, 0.9);
+    width:100%;
+    padding: 15px;
+    overflow:auto;
+    height:31%;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+
+}
+
+.overlays-white {
+    background-color:rgba(255, 255, 255,0.94);
+    width:100%;
+    padding: 15px;
+    overflow:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:35%;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+
+}
+
+.jpn, .kanji, .indo {
+    font-family: 'Gotham';
+    font-size:15px;
+}
+
+.kartu {
+    height:205px; 
+    border: 3px black;
+
+}
+
+.kartu-title {
+    font-size: 14px;
+}
+
+.kartu-novel {
+    font-size:13px;
+}
+
+.kartu-lagu {
+    font-size:14px;
+}
+
+.karosel {
+    width:100%; 
+    height:65vh; 
+    object-fit:cover; 
+    object-position: center;
+}
+
+@media (min-width:800px){
+    .kartu {
+        height:300px;
+    }
+
+    .kartu-title {
+        font-size: 18px;
+    }
+
+    .kartu-novel {
+        font-size:17px;
+    }
+
+    .kartu-lagu {
+        font-size:18px;
+    }
+
+    .karosel {
+        width:100%; 
+        height:700px; 
+        object-fit:cover; 
+        object-position: center;
+    }
+}
+
+@media (min-width:1200px){
+    .kartu {
+        height:350px;
+
+    }
+
+    .kartu-title {
+        font-size: 20px;
+    }
+
+    .kartu-novel {
+        font-size:18px;
+    }
+
+    .kartu-lagu {
+        font-size:20px;
+    }
+
+    .karosel {
+        width:100%; 
+        height:910px; 
+        object-fit:cover; 
+        object-position: center;
+    }
+}
